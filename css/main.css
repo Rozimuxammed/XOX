@@ -5,8 +5,10 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: sans-serif;
-    background-color: rgb(15, 24, 33);
+    background:linear-gradient( 192deg, #06105a, #64563d );
     color: white;
 }
 
