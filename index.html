@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O X</title>
+    <link rel="icon" href="./images/9110784_circle_x_icon.png">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>X O X</h1>
+        <div id="mode-selection">
+            <button onclick="startGame('player')">2 players</button>
+            <button onclick="startGame('computer')">With Computer</button>
+        </div>
+        <div id="game-board" class="hidden">
+            <div class="board">
+                <div class="cell" onclick="makeMove(0)"></div>
+                <div class="cell" onclick="makeMove(1)"></div>
+                <div class="cell" onclick="makeMove(2)"></div>
+                <div class="cell" onclick="makeMove(3)"></div>
+                <div class="cell" onclick="makeMove(4)"></div>
+                <div class="cell" onclick="makeMove(5)"></div>
+                <div class="cell" onclick="makeMove(6)"></div>
+                <div class="cell" onclick="makeMove(7)"></div>
+                <div class="cell" onclick="makeMove(8)"></div>
+            </div>
+            <div class="reyting">
+                <p id="status"></p>
+                <button class="showBtn" onclick="resetGame()">Qayta boshlash</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
